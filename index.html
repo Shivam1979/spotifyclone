@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+
+
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    #navbar-block-2 p {
+      margin: 0 10px;
+      font-size: large;
+    }
+
+    #block-2 {
+      display: flex;
+      align-items: baseline;
+      s height: 500px;
+      padding: 0 400px;
+      justify-content: space-between;
+      background-image: url("https://wallpaperaccess.com/full/2810690.jpg");
+    }
+
+    #navbar {
+      display: flex;
+      justify-content: space-between;
+      background-color: rgba(222, 12, 12, 0.523);
+      color: rgb(0, 178, 65);
+      padding: 0 20px;
+    }
+
+    #navbar-block-1,
+    #navbar-block-2 {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      width: 30px;
+      margin-right: 10px;
+    }
+
+    .mobile {
+
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .mobile-view {
+      height: 80%;
+      width: 85%;
+      border: 2px solid rgb(18, 18, 181);
+      background-color: rgb(202, 41, 41);
+      padding: 30px 5px 0 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+      height: 100%;
+      border-radius: 15px 20px 20px 20px;
+    }
+
+    .mobile-view img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .mobile-speaker {
+      width: 40px;
+      border: 2px solid rgb(0, 38, 255);
+      border-radius: 100px;
+
+    }
+
+    .block-2-text {
+      width: 500px;
+      /* margin-top: 40px; */
+      /* border: 2px solid red; */
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: baseline;
+    }
+
+    .block-2-text p {
+      color: rgb(10, 208, 39);
+      font-size: 40px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: bold;
+      /* margin-top: 100px; */
+    }
+
+    .block-2-text button {
+      width: 150px;
+      height: 40px;
+      border-radius: 25px;
+      padding: 0 20px;
+      font-weight: bold;
+      font-size: 10px;
+    }
+
+    #block-3 {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+
+    #block-3>p {
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .spotify-icons {
+      display: flex;
+      gap: 20px;
+    }
+
+    .icons {
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .icons img {
+      width: 60%;
+    }
+
+    .icons p {
+      margin-top: -10px;
+      font-size: small;
+    }
+  </style>
+  <title>Spotify</title>
+</head>
+
+<body>
+  <!-- Block-1  Nabvar ---------------------------- -->
+  <div id="navbar">
+    <div id="navbar-block-1">
+      <img class="logo" src="./images/spotify.png" alt="" />
+      <h3 class="logo-text">spotify</h3>
+    </div>
+    <div id="navbar-block-2">
+      <p>Premium</p>
+      <p>Support</p>
+      <p>Download</p>
+      <p>|</p>
+      
+      <p>LOG IN</p>
+      <p>SIGN IN</p>
+
+
+    </div>
+  </div>
+
+  <!-- Block - 2 ---------------------------------- -->
+
+  <div id="block-2">
+    <div class="mobile">
+      <div class="mobile-view">
+        <div class="mobile-speaker"></div>
+        <img src="./images/Screenshot 2022-06-03 at 1.12.49 PM.png" class="mobile-display" />
+      </div>
+    </div>
+    <div class="block-2-text">
+      <p>Play Millions of songs and podcast, for free</p>
+      <button>GET SPOTIFY FREE</button>
+    </div>
+  </div>
+
+  <!-- Block - 3 ----------------------------------- -->
+  <div id="block-3">
+    <p>Why Spotify?</p>
+    <div class="spotify-icons">
+      <div class="icons">
+        <img src="./images/logo-1.png" alt="" />
+        <h4>Play your favourites.</h3>
+          <p>
+            Listen to the songs you love and discover new music and podcasts.
+          </p>
+      </div>
+      <div class="icons">
+        <img src="./images/logo-2.png" alt="" />
+        <h4>Playlists made easy</h3>
+          <p>
+            We'll help you make playlists. Or enjoy playlists made by music
+            experts.
+          </p>
+      </div>
+      <div class="icons">
+        <img src="./images/logo-3.png" alt="" />
+        <h4>Make it yours</h3>
+          <p>Tell us what you like and we will recommend music for you.</p>
+      </div>
+      <div class="icons">
+        <img src="./images/logo-4.png" alt="" />
+        <h4>Save mobile data.</h3>
+          <p>
+            To use less data when you play music, turn on data saver in
+            settings.
+          </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
